@@ -8,12 +8,12 @@
 	<string>E447DDE9-E1E3-432F-9FED-9048D93A1F61</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9D486493743DA333C5C3E4B3FDF414E9E5D16520</key>
+		<key>D1F4F0BD42D931CA951CA29E9FAC6D8C86AC59C3</key>
 		<string>https://github.com/DahanHu/DHMenuViewPager.git</string>
 	</dict>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9D486493743DA333C5C3E4B3FDF414E9E5D16520</key>
+		<key>D1F4F0BD42D931CA951CA29E9FAC6D8C86AC59C3</key>
 		<string>DHMenuViewPager</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -21,14 +21,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9D486493743DA333C5C3E4B3FDF414E9E5D16520</string>
+	<string>D1F4F0BD42D931CA951CA29E9FAC6D8C86AC59C3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9D486493743DA333C5C3E4B3FDF414E9E5D16520</string>
+			<string>D1F4F0BD42D931CA951CA29E9FAC6D8C86AC59C3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DHMenuViewPager</string>
 		</dict>

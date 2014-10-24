@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B54163919FA361B001B8FAE /* ViewPager.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B54163819FA361B001B8FAE /* ViewPager.gif */; };
 		5B7B8FB919D95CB1006E2D87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B8FB819D95CB1006E2D87 /* main.m */; };
 		5B7B8FBC19D95CB1006E2D87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B8FBB19D95CB1006E2D87 /* AppDelegate.m */; };
 		5B7B8FBF19D95CB1006E2D87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B8FBE19D95CB1006E2D87 /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B54163819FA361B001B8FAE /* ViewPager.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ViewPager.gif; sourceTree = "<group>"; };
 		5B7B8FB319D95CB1006E2D87 /* DHMenuViewPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHMenuViewPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7B8FB719D95CB1006E2D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B7B8FB819D95CB1006E2D87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		5B7B8FB519D95CB1006E2D87 /* DHMenuViewPager */ = {
 			isa = PBXGroup;
 			children = (
+				5B54163819FA361B001B8FAE /* ViewPager.gif */,
 				5B7B8FDC19D95D4E006E2D87 /* DHMenuViewPagerView */,
 				5B7B8FBA19D95CB1006E2D87 /* AppDelegate.h */,
 				5B7B8FBB19D95CB1006E2D87 /* AppDelegate.m */,
@@ -225,6 +228,7 @@
 				5B7B8FC219D95CB1006E2D87 /* Main.storyboard in Resources */,
 				5B7B8FC719D95CB1006E2D87 /* LaunchScreen.xib in Resources */,
 				5B7B8FC419D95CB1006E2D87 /* Images.xcassets in Resources */,
+				5B54163919FA361B001B8FAE /* ViewPager.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
