@@ -53,13 +53,15 @@
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     if (_swipDelegate) {
         [_swipDelegate contentViewChangedIndex:[(_tableView.indexPathsForVisibleRows[0]) row]];
-    }
-}
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    if (_swipDelegate) {
         [_swipDelegate contentViewChangedAtIndex:[(_tableView.indexPathsForVisibleRows[0]) row] offset:scrollView.contentOffset];
     }
 }
+
+//// 动态改变indicatorView的位置,还没有完美实现
+//- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+//    if (_swipDelegate) {
+//        [_swipDelegate contentViewChangedAtIndex:[(_tableView.indexPathsForVisibleRows[0]) row] offset:scrollView.contentOffset];
+//    }
+//}
 
 @end

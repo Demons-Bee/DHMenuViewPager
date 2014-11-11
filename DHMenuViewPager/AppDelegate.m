@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "DHMenuPagerViewController.h"
+#import "DHMenuPagerView.h"
 @interface AppDelegate ()
 
 @end
@@ -27,8 +28,12 @@
         [controllerArray addObject:vc];
     }
     DHMenuPagerViewController *rootVC = [[DHMenuPagerViewController alloc] initWithViewControllers:controllerArray titles:titleArray];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootVC];
-    self.window.rootViewController = nav;
+  
+  UIViewController *vc = [[UIViewController alloc] init];
+  [vc.view addSubview:[[DHMenuPagerView alloc] initWithFrame:vc.view.frame controllers:controllerArray titles:titleArray]];
+  
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
 }

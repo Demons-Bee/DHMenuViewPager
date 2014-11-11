@@ -6,15 +6,19 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E447DDE9-E1E3-432F-9FED-9048D93A1F61</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DHMenuViewPager</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D1F4F0BD42D931CA951CA29E9FAC6D8C86AC59C3</key>
 		<string>https://github.com/DahanHu/DHMenuViewPager.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DHMenuViewPager.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D1F4F0BD42D931CA951CA29E9FAC6D8C86AC59C3</key>
-		<string>DHMenuViewPager</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/DahanHu/DHMenuViewPager.git</string>
